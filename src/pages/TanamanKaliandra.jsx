@@ -2,27 +2,26 @@ import React from "react";
 
 const TanamanAmp = () => {
   return (
-    <div className="flex justify-center items-center bg-gray-100 py-20 pl-10 pr-10">
-      <div className="container mx-auto px-4 md:px-0 flex justify-between items-center gap-8 ">
-        <div className="max-w-lg order-2">
+    <div className="bg-gray-100 py-20">
+      <div className="container mx-auto px-4 md:px-0 flex flex-col-reverse md:flex-row justify-center items-center gap-8">
+        <div className="max-w-lg md:w-1/2 order-2">
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">
             Calliandra
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed text-justify">
-            Genus Calliandra, termasuk lebih dari 200 spesies, merupakan anggota
-            dalam famili Fabaceae. Salah satu spesies yang terkenal, Calliandra
-            calothyrsus, dikenal karena kemampuannya sebagai tanaman peneduh dan
-            penghasil biomassa yang digunakan dalam agroforestri dan
-            rehabilitasi lahan terdegradasi.
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Tanaman kemuning (Murraya paniculata), semak hijau abadi asli Asia
+            Tenggara dan Asia Timur, dikenal karena daun kecilnya yang mengkilap
+            dan bunga harum putih kekuningan yang muncul pada musim semi hingga
+            musim panas.
           </p>
         </div>
-        <div className="max-w-lg order-1">
+        <div className="max-w-lg md:w-1/2 order-1">
           <img
-            src="/src/assets/images/kaliandra.jpg"
-            alt="air mata pengantin"
-            className="w-96 rounded-lg"
+            src="/src/assets/images/calliandra2.jpg"
+            alt="Calliandra"
+            className="w-full rounded-lg"
           />
-          <p className="text-sm text-gray-600 mt-2">Foto dari Website</p>
+          <p className="text-sm text-gray-600 mt-2">Foto oleh John Doe</p>
         </div>
       </div>
     </div>

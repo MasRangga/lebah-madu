@@ -23,8 +23,8 @@ const Feedback = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 bg-white rounded-lg shadow-md overflow-hidden pb-10">
-      <div className="bg-gray-100 py-4 px-6 border-b border-gray-200 ">
+    <div className="max-w-md mx-auto mt-8 bg-white rounded-lg shadow-md overflow-hidden mb-8">
+      <div className="bg-gray-100 py-4 px-6 border-b border-gray-200">
         <h2 className="text-lg font-semibold text-gray-800">Feedback Form</h2>
       </div>
       <form
