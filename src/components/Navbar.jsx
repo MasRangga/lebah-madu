@@ -46,7 +46,7 @@ const Navbar = () => {
               <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
                 <a
                   href=""
-                  className="block p-2 rounded-full hover:bg-green-400 hover:text-white"
+                  className="block p-2 rounded-full hover:bg-green-500 hover:text-white"
                 >
                   Home
                 </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
                 <a
                   href=""
-                  className="block p-2 rounded-full hover:bg-green-400 hover:text-white"
+                  className="block p-2 rounded-full hover:bg-green-500 hover:text-white"
                 >
                   About
                 </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
               <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
                 <a
                   href=""
-                  className="block p-2 rounded-full hover:bg-green-400 hover:text-white"
+                  className="block p-2 rounded-full hover:bg-green-500 hover:text-white"
                 >
                   Plant
                 </a>
@@ -70,7 +70,7 @@ const Navbar = () => {
               <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
                 <a
                   href=""
-                  className="block p-2 rounded-full hover:bg-green-400 hover:text-white"
+                  className="block p-2 rounded-full hover:bg-green-500 hover:text-white"
                 >
                   Send Feedback
                 </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden sm:block">
-            <button className="grow bg-green-400 px-4 py-4 font-bold text-white rounded-full text-sm transition-all hover:bg-green-500">
+            <button className="grow bg-green-500 px-4 py-4 font-bold text-white rounded-full text-sm transition-all hover:bg-green-500">
               Contact Me
             </button>
           </div>
@@ -154,7 +154,7 @@ const Navbar = () => {
             : "transition ease-in duration-300 opacity-0 scale-90 hidden"
         }`}
       >
-        <button className="grow bg-green-400 px-4 py-4 font-bold text-white rounded-full text-lg font-poppins transition-all hover:bg-green-500">
+        <button className="grow bg-green-500 px-4 py-4 font-bold text-white rounded-full text-lg font-poppins transition-all hover:bg-green-700">
           Contact Me
         </button>
       </div>
