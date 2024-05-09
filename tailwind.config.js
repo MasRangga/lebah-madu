@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const flowbite = require("flowbite-react/tailwind");
+
 module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
+    flowbite.content(),
   ],
   theme: {
     extend: {
@@ -12,13 +15,14 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("daisyui")
-  ],
+  plugins: [require("tailwindcss"), require("daisyui"), flowbite.plugin()],
 
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  daisyui: {
+    themes: ["light"], 
+  },
+  flowbite: {
+    themes: ["light"], 
+  },
 
   // daisyUI config (optional - here are the default values)
   daisyui: {
@@ -31,5 +35,4 @@ module.exports = {
     logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
     themeRoot: ":root", // The element that receives theme color CSS variables
   },
-
 };
