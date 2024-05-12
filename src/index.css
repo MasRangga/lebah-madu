@@ -9,3 +9,19 @@ p {
 h2 {
   font-size: 30px;
 }
+
+.card-plant {
+  gap: 10px;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.card {
+  background-color: #fe7138;
+  color: #ffffff;
+}
+
+.card button {
+  background-color: #ffffff;
+  border-style: 2px solid #af4014;
+}
