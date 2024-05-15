@@ -8,8 +8,6 @@ const HomePage = () => {
     <div>
       <Navbar />
 
-      <Footer />
-     
     </div>
   );
 };
