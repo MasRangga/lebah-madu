@@ -1,24 +1,13 @@
+
 import React from "react";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
-      {/* Create Hero Section */}
-      <section>
 
-      </section>
-      {/* Create About Section */}
-
-      {/* Create Plant Section */}
-
-      {/* Create Contact Section */}
-
-      {/* Create Footer Section */}
-      
-      
     </div>
   );
 };
