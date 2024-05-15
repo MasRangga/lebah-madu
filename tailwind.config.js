@@ -13,15 +13,19 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"],
       },
+      colors: {
+        primary: "#86B817",
+        secondary: "#E9FBC0",
+      },
     },
   },
   plugins: [require("tailwindcss"), require("daisyui"), flowbite.plugin()],
 
   daisyui: {
-    themes: ["light"], 
+    themes: ["light"],
   },
   flowbite: {
-    themes: ["light"], 
+    themes: ["light"],
   },
 
   // daisyUI config (optional - here are the default values)
