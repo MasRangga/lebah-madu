@@ -18,23 +18,19 @@ const AboutPage = () => {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">TENTANG KAMI</h1>
-            <div className="flex justify-center items-center gap-5">
-              <h3>Beranda</h3>
-              <h3>Tentang Kami</h3>
-            </div>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center items-center h-[250px] gap-3">
+      <div className="flex flex-col justify-center items-center h-[250px] gap-3 sm:flex-row">
         <h1 className="text-[#a5dd9b] text-4xl font-bold">VISI & </h1>
         <h1 className="text-4xl font-bold">MISI</h1>
       </div>
 
-      <div className="flex flex-col w-full h-[350px] lg:flex-row bg-[#a5dd9b] p-10">
+      <div className="flex flex-col w-full h-auto lg:h-[350px] lg:flex-row bg-[#a5dd9b] p-10">
         <div className="grid flex-grow place-items-center">
           <h1 className="text-2xl font-bold">VISI</h1>
-          <p className="w-[70%]">
+          <p className="w-[90%] lg:w-[70%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quod
             nostrum porro sed? Quae magnam illum quas officia minus sed, ad illo
             nam hic et, est maiores, ratione dolore debitis.Lorem ipsum dolor
@@ -43,10 +39,10 @@ const AboutPage = () => {
             maiores, ratione dolore debitis.
           </p>
         </div>
-        <div className="h-[600px] w-[2px] bg-white"></div>
+        <div className="h-[2px] w-full bg-white lg:h-[600px] lg:w-[2px]"></div>
         <div className="grid flex-grow place-items-center">
           <h1 className="text-2xl font-bold">MISI</h1>
-          <p className="w-[70%]">
+          <p className="w-[90%] lg:w-[70%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quod
             nostrum porro sed? Quae magnam illum quas officia minus sed, ad illo
             nam hic et, est maiores, ratione dolore debitis.Lorem ipsum dolor
@@ -60,7 +56,7 @@ const AboutPage = () => {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#a5dd9b"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,32L720,128L1440,32L1440,0L720,0L0,0Z"
           ></path>
         </svg>
@@ -72,9 +68,9 @@ const AboutPage = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-[80%] h-[30%] gap-5">
-        <img src={image} alt="Deskripsi gambar" />
-        <p>
+      <div className="flex flex-col justify-center items-center min-h-screen gap-5 p-5">
+        <img className="w-full max-w-3xl" src={image} alt="Deskripsi gambar" />
+        <p className="w-full max-w-3xl">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis,
           delectus ducimus. Ducimus alias recusandae odio, quod dicta sunt ad
           dignissimos tenetur suscipit eaque natus voluptate, unde nostrum vero
@@ -107,10 +103,22 @@ const AboutPage = () => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center h-[250px] gap-3">
+      <div className="flex justify-center items-center h-[250px]">
         <h1 className="text-[#a5dd9b] text-4xl font-bold">
           LOKASI PETERNAKAN LEBAH MADU KARAMUNTING
         </h1>
+      </div>
+
+      <div className="flex justify-center items-center h-[500px] p-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084580.6788381045!2d112.61309900000003!3d-1.26344399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147bf74263bd5%3A0xd98234e90cd3bb87!2sBudidaya%20Lebah%20Kelompok%20Tani%20Karamunting!5e0!3m2!1sen!2sid!4v1715949879680!5m2!1sen!2sid"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <Footer />
