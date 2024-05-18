@@ -1,3 +1,15 @@
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: ["./src/**/*.{js,ts,jsx,tsx}"],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [
+//     require("daisyui"),
+//   ],
+// };
+
+//  @type {import('tailwindcss').Config}
 /** @type {import('tailwindcss').Config} */
 const flowbite = require("flowbite-react/tailwind");
 
@@ -18,10 +30,10 @@ module.exports = {
   plugins: [require("tailwindcss"), require("daisyui"), flowbite.plugin()],
 
   daisyui: {
-    themes: ["light"], 
+    themes: ["light"],
   },
   flowbite: {
-    themes: ["light"], 
+    themes: ["light"],
   },
 
   // daisyUI config (optional - here are the default values)
