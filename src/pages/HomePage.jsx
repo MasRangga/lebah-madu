@@ -23,7 +23,7 @@ const HomePage = () => {
                   <img src="" alt="" />
                 </button>
               </div>
-            </div>
+            </div> 
           </div>
         </div>
       </section>
