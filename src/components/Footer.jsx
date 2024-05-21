@@ -69,19 +69,19 @@ const Footer = ({ linkRef, goto }) => {
           <ul className="flex flex-row gap-4 lg:gap-8">
             <Link
               to={""}
-              className="hover:text-green-500 cursor-pointer lg:text-lg"
+              className="hover:text-primary cursor-pointer lg:text-lg"
             >
               About
             </Link>
             <Link
               to={""}
-              className="hover:text-green-500 cursor-pointer lg:text-lg"
+              className="hover:text-primary cursor-pointer lg:text-lg"
             >
               Plant
             </Link>
             <Link
               to={""}
-              className="hover:text-green-500 cursor-pointer lg:text-lg"
+              className="hover:text-primary cursor-pointer lg:text-lg"
             >
               Send Feedback
             </Link>
@@ -90,19 +90,19 @@ const Footer = ({ linkRef, goto }) => {
           {/* hubungi kami */}
           <ul className="flex flex-row gap-5">
             <li>
-              <FaInstagram className="w-6 h-6 text-green-500 hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
+              <FaInstagram className="w-6 h-6 text-primary hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
             </li>
             <li>
-              <FaFacebook className="w-6 h-6 text-green-500 hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
+              <FaFacebook className="w-6 h-6 text-primary hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
             </li>
             <li>
-              <BsTwitterX className="w-6 h-6 text-green-500 hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
+              <BsTwitterX className="w-6 h-6 text-primary hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
             </li>
             <li>
-              <FaTiktok className="w-6 h-6 text-green-500 hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
+              <FaTiktok className="w-6 h-6 text-primary hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
             </li>
             <li>
-              <FaWhatsapp className="w-6 h-6 text-green-500 hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
+              <FaWhatsapp className="w-6 h-6 text-primary hover:bg-green-500 hover:rounded-full hover:text-white duration-300 lg:w-8 lg:h-8" />
             </li>
           </ul>
         </div>
