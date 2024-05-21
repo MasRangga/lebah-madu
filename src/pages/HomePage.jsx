@@ -6,7 +6,7 @@ import { ImWhatsapp } from "react-icons/im";
 import { FaAngleRight } from "react-icons/fa";
 import Footer from "../components/Footer";
 
-
+// Testimonial
 import AOS from "aos";
 import "aos/dist/aos.css";
 
