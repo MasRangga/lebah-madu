@@ -26,7 +26,6 @@ const Navbar = () => {
 
   return (
     <nav className="py-9 px-4">
-      <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <img src={fixlogomadu} alt="fixlogomadu" />
           {hamburgerClicked ? (
@@ -84,7 +83,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-      </div>
+      
 
       {/* Mobile View Navbar */}
       {showNavbarBottom && (

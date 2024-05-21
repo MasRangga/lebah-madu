@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import logomadu2 from "../assets/fixlogomadu.svg"
+
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import { IoArrowUp } from "react-icons/io5";
@@ -52,8 +52,8 @@ const Footer = ({ linkRef, goto }) => {
         <div className="flex flex-col gap-6 lg:w-2/3 ">
           {/* logo */}
           <img
-            src={logomadu2}
-            alt="logomadu2"
+            src={fixlogomadu}
+            alt="fixlogomadu"
             className="h-14 w-60 cursor-pointer"
             onClick={() => goto(linkRef.current)}
           />
