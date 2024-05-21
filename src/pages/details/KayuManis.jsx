@@ -40,12 +40,16 @@ function KayuManis() {
               adalah pohon kecil hingga sedang dengan daun hijau mengkilap yang
               berbentuk lonjong. Kulit kayunya berwarna cokelat dan mengeluarkan
               aroma harum yang khas saat dikeringkan. <br />
-              3. <strong> Kulit Kayu sebagai Produk Utama:</strong> Kulit kayu manis
-              yang dikeringkan digunakan sebagai rempah-rempah yang populer.
-              Kayu manis dijual dalam bentuk batang (gulungan) atau bubuk dan
-              digunakan secara luas dalam berbagai masakan, minuman, dan produk
-              pangan lainnya. <br />
-              4. <strong> Rasa dan Aroma: </strong> Kayu manis memiliki rasa manis dan sedikit pedas dengan aroma yang kuat dan harum. Kayu manis Ceylon biasanya memiliki rasa yang lebih lembut dan manis, sedangkan kayu manis Cassia memiliki rasa yang lebih kuat dan sedikit pahit. <br />
+              3. <strong> Kulit Kayu sebagai Produk Utama:</strong> Kulit kayu
+              manis yang dikeringkan digunakan sebagai rempah-rempah yang
+              populer. Kayu manis dijual dalam bentuk batang (gulungan) atau
+              bubuk dan digunakan secara luas dalam berbagai masakan, minuman,
+              dan produk pangan lainnya. <br />
+              4. <strong> Rasa dan Aroma: </strong> Kayu manis memiliki rasa
+              manis dan sedikit pedas dengan aroma yang kuat dan harum. Kayu
+              manis Ceylon biasanya memiliki rasa yang lebih lembut dan manis,
+              sedangkan kayu manis Cassia memiliki rasa yang lebih kuat dan
+              sedikit pahit. <br />
             </p>
           </div>
         </div>
