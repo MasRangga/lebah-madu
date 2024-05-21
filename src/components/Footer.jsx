@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import fixlogomadu from "../assets/fixlogomadu.svg";
+
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import { IoArrowUp } from "react-icons/io5";
