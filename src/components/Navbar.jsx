@@ -26,63 +26,61 @@ const Navbar = () => {
 
   return (
     <nav className="py-9 px-4">
-      <div className="container mx-auto">
-        <div className="flex items-center justify-between">
-          <img src={fixlogomadu} alt="fixlogomadu" />
-          {hamburgerClicked ? (
-            <img src={Cancel2} alt="Cancel2" onClick={handleHamburgerClick} />
-          ) : (
-            <img
-              className="lg:hidden"
-              src={hamburger2}
-              alt="hamburger2"
-              onClick={handleHamburgerClick}
-            />
-          )}
+      <div className="flex items-center justify-between">
+        <img src={fixlogomadu} alt="fixlogomadu" />
+        {hamburgerClicked ? (
+          <img src={Cancel2} alt="Cancel2" onClick={handleHamburgerClick} />
+        ) : (
+          <img
+            className="lg:hidden"
+            src={hamburger2}
+            alt="hamburger2"
+            onClick={handleHamburgerClick}
+          />
+        )}
 
-          {/* Desktop View Navbar */}
-          <div className="hidden lg:block">
-            <ul className="flex gap-16">
-              <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
-                <a
-                  href=""
-                  className="block p-2 rounded-full hover:bg-primary hover:text-white"
-                >
-                  Home
-                </a>
-              </li>
-              <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
-                <a
-                  href=""
-                  className="block p-2 rounded-full hover:bg-primary hover:text-white"
-                >
-                  About
-                </a>
-              </li>
-              <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
-                <a
-                  href=""
-                  className="block p-2 rounded-full hover:bg-primary hover:text-white"
-                >
-                  Plant
-                </a>
-              </li>
-              <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
-                <a
-                  href=""
-                  className="block p-2 rounded-full hover:bg-primary hover:text-white"
-                >
-                  Send Feedback
-                </a>
-              </li>
-            </ul>
-          </div>
+        {/* Desktop View Navbar */}
+        <div className="hidden lg:block">
+          <ul className="flex gap-16">
+            <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
+              <a
+                href="/"
+                className="block p-2 rounded-full hover:bg-primary hover:text-white"
+              >
+                Home
+              </a>
+            </li>
+            <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
+              <a
+                href="/aboutpage"
+                className="block p-2 rounded-full hover:bg-primary hover:text-white"
+              >
+                About
+              </a>
+            </li>
+            <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
+              <a
+                href="/Card"
+                className="block p-2 rounded-full hover:bg-primary hover:text-white"
+              >
+                Plant
+              </a>
+            </li>
+            <li className="text-gray-400 font-normal text-lg font-poppins opacity-50 hover:opacity-100 transform transition-transform hover:scale-105">
+              <a
+                href="/feedback"
+                className="block p-2 rounded-full hover:bg-primary hover:text-white"
+              >
+                Send Feedback
+              </a>
+            </li>
+          </ul>
+        </div>
 
-          <div className="hidden sm:block">
-            <button className="grow bg-primary px-4 py-4 font-bold text-white rounded-full text-lg font-poppins transition-all hover:bg-primary-dark transform hover:scale-105">
-              Contact Me
-            </button>
-          </div>
+        <div className="hidden sm:block">
+          <button className="grow bg-primary px-4 py-4 font-bold text-white rounded-full text-lg font-poppins transition-all hover:bg-primary-dark transform hover:scale-105">
+            Contact Me
+          </button>
         </div>
       </div>
 
