@@ -3,6 +3,8 @@ import Navbar from "/src/components/Navbar";
 import CopyRight2 from "/src/components/CopyRight2";
 import ButtonBackToCard from "/src/components/ButtonBackToCard";
 
+// tes 123
+
 function KayuManis() {
   return (
     <div className="min-h-screen bg-gray-100">
