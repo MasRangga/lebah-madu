@@ -15,6 +15,8 @@ import Kemuning from "./pages/details/Kemuning";
 import Mangga from "./pages/details/Mangga";
 import AirMataPengantin from "./pages/details/AirMataPengantin";
 import MahkotaDuri from "./pages/details/MahkotaDuri";
+import KayuManis from "./pages/details/KayuManis";
+import PasakBumi from "./pages/details/PasakBumi";
 
 function App() {
   return (
@@ -27,10 +29,13 @@ function App() {
         <Route path="/Langsat" element={<Langsat />} />
         <Route path="/asoka" element={<Asoka />} />
         <Route path="/calliandra" element={<Calliandra />} />
+        <Route path="/kayumanis" element={<KayuManis />} />
         <Route path="/kemuning" element={<Kemuning />} />
         <Route path="/mangga" element={<Mangga />} />
         <Route path="/airmatapengantin" element={<AirMataPengantin />} />
         <Route path="/mahkotaduri" element={<MahkotaDuri />} />
+        <Route path="/pasakbumi" element={<PasakBumi />} />
+
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutpage" element={<AboutPage />} />
       </Routes>

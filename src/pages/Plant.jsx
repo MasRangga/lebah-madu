@@ -153,7 +153,10 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Mahkota Duri</h2>
-            <p>Mahkota Duri atau Crown of Thorns (Euphorbia milii) adalah tanaman sukulen yang...</p>
+            <p>
+              Mahkota Duri atau Crown of Thorns (Euphorbia milii) adalah tanaman
+              sukulen yang...
+            </p>
             <Link to="/mahkotaduri" className="btn btn-primary">
               Detail
             </Link>
@@ -169,7 +172,7 @@ const Plant = () => {
               Tanaman kayu manis (Cinnamomum verum atau Cinnamomum cassia)
               adalah pohon kecil yang berasal dari...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/kayumanis" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -184,7 +187,7 @@ const Plant = () => {
               Tanaman Pasak Bumi (Eurycoma longifolia) adalah tumbuhan asli
               hutan tropis di Asia Tenggara, terutama...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/pasakbumi" className="btn btn-primary">
               Detail
             </Link>
           </div>
