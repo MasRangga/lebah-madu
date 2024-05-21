@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import CopyRight2 from "../components/CopyRight2";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Plant = () => {
   return (
@@ -60,10 +61,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Kemuning</h2>
             <p>
-              Tanaman kemuning (Murraya paniculata), semak hijau abadi asli Asia
-              Tenggara dan Asia Timur...
+              Kemuning (Murraya paniculata) adalah tanaman asli Asia Tenggara
+              yang terkenal karena...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/kemuning" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -75,10 +76,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Asoka</h2>
             <p>
-              Bunga Asoka, dengan kelopak merah muda hingga merah tua dan benang
-              sari kuningnya...
+              Bunga Asoka, yang dikenal dengan nama ilmiah Saraca indica, adalah
+              salah satu tanaman hias yang...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/asoka" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -90,10 +91,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Mangga</h2>
             <p>
-              Tanaman mangga adalah pohon tropis yang besar dengan daun hijau
-              yang rimbun...
+              Mangga (Mangifera indica) adalah tanaman buah tropis yang berasal
+              dari wilayah Asia Selatan, khususnya...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/mangga" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -108,10 +109,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Air Mata Pengantin</h2>
             <p>
-              Tanaman air mata pengantin (Saintpaulia), yang juga dikenal
-              sebagai African Violet...
+              Air mata pengantin adalah tumbuhan memanjat (liana) anggota suku
+              Polygonaceae yang berasal dari...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/airmatapengantin" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -123,10 +124,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Calliandra</h2>
             <p>
-              Kaliandra (Calliandra) adalah genus tanaman dalam famili Fabaceae
-              yang terdiri dari lebih dari 200 spesies...
+              Calliandra adalah genus tanaman berbunga yang berasal dari daerah
+              tropis dan subtropis di...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/calliandra" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -153,10 +154,10 @@ const Plant = () => {
           <div className="card-body">
             <h2 className="card-title">Mahkota Duri</h2>
             <p>
-              Tanaman Mahkota Duri (Euphorbia milii) adalah tanaman hias yang
-              populer di berbagai belahan dunia...
+              Mahkota Duri atau Crown of Thorns (Euphorbia milii) adalah tanaman
+              sukulen yang...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/mahkotaduri" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -171,7 +172,7 @@ const Plant = () => {
               Tanaman kayu manis (Cinnamomum verum atau Cinnamomum cassia)
               adalah pohon kecil yang berasal dari...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/kayumanis" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -186,7 +187,7 @@ const Plant = () => {
               Tanaman Pasak Bumi (Eurycoma longifolia) adalah tumbuhan asli
               hutan tropis di Asia Tenggara, terutama...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/pasakbumi" className="btn btn-primary">
               Detail
             </Link>
           </div>

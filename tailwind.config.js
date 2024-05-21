@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-// /** @type {import('tailwindcss').Config} */
-// export default {
-//   content: ["./src/**/*.{js,ts,jsx,tsx}"],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [
-//     require("daisyui"),
-//   ],
-// };
-
-//  @type {import('tailwindcss').Config}
-=======
->>>>>>> f7142887906454d92e9186d29e0f2941cf33c69d
 /** @type {import('tailwindcss').Config} */
 const flowbite = require("flowbite-react/tailwind");
 
@@ -28,14 +13,11 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"],
       },
-<<<<<<< HEAD
-=======
       colors: {
         primary: "#86B817",
         'primary-dark': "#6D8F0B",
         secondary: "#E9FBC0",
       },
->>>>>>> f7142887906454d92e9186d29e0f2941cf33c69d
     },
   },
   plugins: [require("tailwindcss"), require("daisyui"), flowbite.plugin()],

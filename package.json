@@ -17,10 +17,7 @@
     "flowbite-react": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-=======
-    "react-icons": "^5.1.0",
->>>>>>> f7142887906454d92e9186d29e0f2941cf33c69d
+    "react-icons": "^5.0.1",
     "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
