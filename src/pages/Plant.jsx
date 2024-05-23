@@ -14,7 +14,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kopi Robusta</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kopi Robusta (Coffea canephora) adalah salah satu spesies
               kopi yang penting secara komersial...
             </p>
@@ -29,7 +29,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Tapak Dara</h2>
-            <p>
+            <p className="text-xl">
               Tanaman tapak dara (Catharanthus roseus) adalah tanaman hias yang
               juga memiliki nilai obat...
             </p>
@@ -44,7 +44,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Langsat</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Santos biasanya merujuk pada tanaman dengan nama ilmiah
               Cordyline fruticosa...
             </p>
@@ -59,7 +59,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kemuning</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kemuning (Murraya paniculata), semak hijau abadi asli Asia
               Tenggara dan Asia Timur...
             </p>
@@ -74,7 +74,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Asoka</h2>
-            <p>
+            <p className="text-xl">
               Bunga Asoka, dengan kelopak merah muda hingga merah tua dan benang
               sari kuningnya...
             </p>
@@ -89,7 +89,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Mangga</h2>
-            <p>
+            <p className="text-xl">
               Tanaman mangga adalah pohon tropis yang besar dengan daun hijau
               yang rimbun...
             </p>
@@ -107,7 +107,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Air Mata Pengantin</h2>
-            <p>
+            <p className="text-xl">
               Tanaman air mata pengantin (Saintpaulia), yang juga dikenal
               sebagai African Violet...
             </p>
@@ -122,7 +122,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Calliandra</h2>
-            <p>
+            <p className="text-xl">
               Kaliandra (Calliandra) adalah genus tanaman dalam famili Fabaceae
               yang terdiri dari lebih dari 200 spesies...
             </p>
@@ -137,7 +137,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Santos</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Santos biasanya merujuk pada tanaman dengan nama ilmiah
               Cordyline fruticosa...
             </p>
@@ -152,7 +152,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Mahkota Duri</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Mahkota Duri (Euphorbia milii) adalah tanaman hias yang
               populer di berbagai belahan dunia...
             </p>
@@ -167,7 +167,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kayu Manis</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kayu manis (Cinnamomum verum atau Cinnamomum cassia)
               adalah pohon kecil yang berasal dari...
             </p>
@@ -182,7 +182,7 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Pasak Bumi</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Pasak Bumi (Eurycoma longifolia) adalah tumbuhan asli
               hutan tropis di Asia Tenggara, terutama...
             </p>

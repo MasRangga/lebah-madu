@@ -17,9 +17,13 @@ h2 {
 }
 
 .card {
-  background-color: #fe7138;
+  background-color: #86b817;
   color: #ffffff;
 }
+
+/* .card p {
+  font-size: 20px;
+} */
 
 .card button {
   background-color: #ffffff;
@@ -185,7 +189,7 @@ body {
 }
 
 .slider-controler .slider-arrow::after {
-  content: '';
+  content: "";
 }
 
 .swiper-pagination {
