@@ -1,19 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import image from "../assets/gambarabout.png";
+import image from "../assets/about-sejarah.jpeg";
+import foto from "../assets/about-hero.jpg";
 
 const AboutPage = () => {
   return (
     <div>
       <Navbar />
-      <div
-        className="hero min-h-screen"
-        style={{
-          backgroundImage:
-            "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-        }}
-      >
+      <div className="hero min-h-screen">
+        <img className="hero min-h-screen" src={foto} alt="Kelompok Tani Karamunting" />
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
@@ -27,28 +23,24 @@ const AboutPage = () => {
         <h1 className="text-4xl font-bold">MISI</h1>
       </div>
 
-      <div className="flex flex-col w-full h-auto lg:h-[350px] lg:flex-row bg-[#a5dd9b] p-10">
+      <div className="flex flex-col w-full h-auto lg:h-[400px] lg:flex-row bg-[#a5dd9b] p-10">
         <div className="grid flex-grow place-items-center">
           <h1 className="text-2xl font-bold">VISI</h1>
-          <p className="w-[90%] lg:w-[70%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quod
-            nostrum porro sed? Quae magnam illum quas officia minus sed, ad illo
-            nam hic et, est maiores, ratione dolore debitis.Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Ipsa quod nostrum porro sed?
-            Quae magnam illum quas officia minus sed, ad illo nam hic et, est
-            maiores, ratione dolore debitis.
+          <p className="w-[90%] lg:w-[50%] text-md">
+            Menjadi kelompok tani lebah madu kelulut yang mandiri, inovatif, dan
+            berkelanjutan dalam mengelola sumber daya alam, serta memberikan
+            kontribusi signifikan terhadap peningkatan kesejahteraan ekonomi
+            masyarakat dan pelestarian lingkungan.
           </p>
         </div>
-        <div className="h-[2px] w-full bg-white lg:h-[600px] lg:w-[2px]"></div>
         <div className="grid flex-grow place-items-center">
           <h1 className="text-2xl font-bold">MISI</h1>
-          <p className="w-[90%] lg:w-[70%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quod
-            nostrum porro sed? Quae magnam illum quas officia minus sed, ad illo
-            nam hic et, est maiores, ratione dolore debitis.Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Ipsa quod nostrum porro sed?
-            Quae magnam illum quas officia minus sed, ad illo nam hic et, est
-            maiores, ratione dolore debitis.
+          <p className="w-[90%] lg:w-[70%] text-md">
+            <br /> 1. Menyelenggarakan pelatihan dan pendidikan berkelanjutan
+            bagi anggota kelompok tani untuk mengembangkan keterampilan dalam
+            budidaya lebah madu kelulut dan manajemen usaha. <br />
+            2. Mendorong praktik budidaya yang ramah lingkungan dan
+            berkelanjutan untuk menjaga kelestarian ekosistem hutan kota. <br />
           </p>
         </div>
       </div>
@@ -71,35 +63,40 @@ const AboutPage = () => {
       <div className="flex flex-col justify-center items-center min-h-screen gap-5 p-5">
         <img className="w-full max-w-3xl" src={image} alt="Deskripsi gambar" />
         <p className="w-full max-w-3xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis,
-          delectus ducimus. Ducimus alias recusandae odio, quod dicta sunt ad
-          dignissimos tenetur suscipit eaque natus voluptate, unde nostrum vero
-          excepturi inventore laudantium eligendi? Obcaecati culpa eaque quam
-          nesciunt quaerat ullam quas laboriosam, sit, placeat ipsam facere
-          quasi saepe aliquam? Modi repudiandae expedita natus provident
-          reiciendis debitis. Error pariatur, incidunt, delectus explicabo
-          aperiam repellat soluta, praesentium assumenda rerum tempore maxime.
-          Tenetur ratione pariatur voluptatibus nesciunt impedit. Eveniet
-          commodi velit, minima nisi explicabo autem veritatis nam nesciunt
-          numquam rerum, inventore libero alias. Vero quae laudantium recusandae
-          temporibus quidem quasi, laborum aliquid ullam culpa sint blanditiis
-          ipsam, accusantium amet sequi fugit sunt natus, harum nemo accusamus
-          nostrum molestias cupiditate. Distinctio harum rerum deserunt in quod
-          delectus enim, dignissimos nulla voluptatem ab maxime dolor saepe aut
-          culpa id ducimus deleniti veniam voluptates? Esse quis deserunt
-          delectus quasi quibusdam quo quisquam quidem rem, earum cum laboriosam
-          nihil, ea iure atque. Sunt cumque quaerat dolores provident in fuga
-          molestias, magnam odit? Blanditiis debitis eum inventore, repellat,
-          nobis doloremque non maiores quam eligendi impedit amet doloribus
-          totam incidunt provident iure quod exercitationem, quis cupiditate
-          adipisci explicabo odio! Ratione, labore. Odit, at tenetur, repellat
-          similique aliquid vitae eveniet facilis sunt atque quam corporis ipsum
-          id enim nam temporibus vero! Expedita assumenda vel quisquam minus,
-          quo error exercitationem eligendi! Dolorem a mollitia minus. Labore
-          voluptatum expedita fugit distinctio deleniti voluptates accusantium
-          reprehenderit. Blanditiis provident ad molestiae soluta beatae
-          temporibus quo vel! Harum expedita ullam nemo commodi iste cupiditate
-          quis veritatis.
+          <br />
+          Kelompok Tani Lebah Madu Karamunting didirikan sebagai bagian dari
+          inisiatif masyarakat di Kelurahan Telagasari, Balikpapan, untuk
+          meningkatkan kesejahteraan ekonomi melalui budidaya lebah madu
+          kelulut. Kelompok ini terbentuk dari hasil kolaborasi antara
+          masyarakat setempat dengan PT Pertamina Hulu Kalimantan Timur (PHKT)
+          melalui program CSR mereka yang berfokus pada pemberdayaan ekonomi dan
+          pelestarian lingkungan. <br /> Sejarah kelompok ini bermula pada tahun
+          2021, ketika PHKT menggelar pelatihan budidaya lebah madu kelulut
+          bekerja sama dengan Kelompok Kerja (Pokja) Pengelola Hutan Kota
+          Pendidikan Telagasari (HKPTS). Pelatihan ini diadakan di Aula
+          Kelurahan Telagasari dan dihadiri oleh berbagai perwakilan dari
+          pemerintah kota Balikpapan, termasuk dari Dinas Lingkungan Hidup dan
+          pihak kelurahan. <br /> Inisiatif ini mendapat sambutan positif dari
+          berbagai pihak. Kepala Bidang Peningkatan Kapasitas Lingkungan Hidup
+          dan Penegakan Hukum, Noorlenawati, mengapresiasi perhatian PHKT
+          terhadap pelestarian lingkungan yang juga berdampak pada peningkatan
+          ekonomi masyarakat sekitar. Lurah Telagasari, Arini Amir, menyatakan
+          harapannya agar budidaya lebah kelulut dapat meningkatkan pendapatan
+          masyarakat setempat. <br /> Perwakilan manajemen PHKT, Asih Soenarih,
+          menyampaikan bahwa pelatihan ini diharapkan dapat memotivasi
+          masyarakat untuk mengembangkan usaha budidaya lebah madu kelulut dan
+          menangkap potensi peningkatan ekonomi alternatif, terutama di masa
+          pandemi COVID-19. Selain memberikan pelatihan, PHKT juga menyerahkan
+          bantuan berupa 25 paket bibit dan media sarang lebah kelulut, serta
+          berkomitmen untuk memberikan pendampingan dan monitoring evaluasi
+          program pasca pelatihan. Dengan adanya program ini, Kelompok Tani
+          Lebah Madu Karamunting diharapkan mampu menjadi model pemberdayaan
+          masyarakat yang sejalan dengan tujuan Sustainable Development Goals
+          (SDGs) tujuan 8, yaitu mendukung pertumbuhan ekonomi yang inklusif dan
+          berkelanjutan, tenaga kerja penuh dan produktif, serta pekerjaan yang
+          layak bagi semua. Kelompok ini kini bergerak aktif dalam budidaya
+          lebah kelulut dan berupaya meningkatkan kesejahteraan anggotanya serta
+          menjaga kelestarian ekosistem hutan kota. <br />
         </p>
       </div>
 
