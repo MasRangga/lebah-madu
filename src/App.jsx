@@ -15,6 +15,8 @@ import Kemuning from "./pages/details/Kemuning";
 import Mangga from "./pages/details/Mangga";
 import AirMataPengantin from "./pages/details/AirMataPengantin";
 import MahkotaDuri from "./pages/details/MahkotaDuri";
+import PasakBumi from "./pages/details/PasakBumi";
+import KayuManis from "./pages/details/KayuManis";
 import Feedback from "./components/feedback";
 
 function App() {
@@ -24,13 +26,16 @@ function App() {
         <Route path="/Card" element={<Plant />} />
         <Route path="/santos" element={<Santos />} />
         <Route path="/kopi" element={<Kopi />} />
-        <Route path="TapakDara" element={<TapakDara />} />
+        <Route path="/TapakDara" element={<TapakDara />} />
         <Route path="/Langsat" element={<Langsat />} />
         <Route path="/asoka" element={<Asoka />} />
         <Route path="/calliandra" element={<Calliandra />} />
         <Route path="/kemuning" element={<Kemuning />} />
         <Route path="/mangga" element={<Mangga />} />
         <Route path="/airmatapengantin" element={<AirMataPengantin />} />
+        <Route path="/kayumanis" element={<KayuManis />} />
+
+        <Route path="/pasakbumi" element={<PasakBumi />} />
         <Route path="/mahkotaduri" element={<MahkotaDuri />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutpage" element={<AboutPage />} />

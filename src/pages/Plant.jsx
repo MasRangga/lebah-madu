@@ -63,7 +63,7 @@ const Plant = () => {
               Tanaman kemuning (Murraya paniculata), semak hijau abadi asli Asia
               Tenggara dan Asia Timur...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/kemuning" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -78,7 +78,7 @@ const Plant = () => {
               Bunga Asoka, dengan kelopak merah muda hingga merah tua dan benang
               sari kuningnya...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/asoka" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -93,7 +93,7 @@ const Plant = () => {
               Tanaman mangga adalah pohon tropis yang besar dengan daun hijau
               yang rimbun...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/mangga" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -111,7 +111,7 @@ const Plant = () => {
               Tanaman air mata pengantin (Saintpaulia), yang juga dikenal
               sebagai African Violet...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/airmatapengantin" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -126,7 +126,7 @@ const Plant = () => {
               Kaliandra (Calliandra) adalah genus tanaman dalam famili Fabaceae
               yang terdiri dari lebih dari 200 spesies...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/calliandra" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -156,7 +156,7 @@ const Plant = () => {
               Tanaman Mahkota Duri (Euphorbia milii) adalah tanaman hias yang
               populer di berbagai belahan dunia...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/mahkotaduri" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -171,7 +171,7 @@ const Plant = () => {
               Tanaman kayu manis (Cinnamomum verum atau Cinnamomum cassia)
               adalah pohon kecil yang berasal dari...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/kayumanis" className="btn btn-primary">
               Detail
             </Link>
           </div>
@@ -186,7 +186,7 @@ const Plant = () => {
               Tanaman Pasak Bumi (Eurycoma longifolia) adalah tumbuhan asli
               hutan tropis di Asia Tenggara, terutama...
             </p>
-            <Link to="/santos" className="btn btn-primary">
+            <Link to="/pasakbumi" className="btn btn-primary">
               Detail
             </Link>
           </div>
