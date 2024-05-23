@@ -1,3 +1,23 @@
+
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: ["./src/**/*.{js,ts,jsx,tsx}"],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [
+//     require("daisyui"),
+//   ],
+// };
+
+//  @type {import('tailwindcss').Config}
+module.exports = {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("daisyui")],
+=======
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -31,5 +51,4 @@ module.exports = {
     logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
     themeRoot: ":root", // The element that receives theme color CSS variables
   },
-
 };
