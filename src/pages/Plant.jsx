@@ -1,8 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import CopyRight2 from "../components/CopyRight2";
+import { Link } from "react-router-dom";
 
 const Plant = () => {
   return (
-    <div className="bg-gray-100 py-20 ">
+    <div className="bg-gray-100 ">
+      <Navbar />
       <div className="card-plant flex justify-center">
         <div className="card card-compact w-96  shadow-xl">
           <figure>
@@ -10,13 +14,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kopi Robusta</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kopi Robusta (Coffea canephora) adalah salah satu spesies
               kopi yang penting secara komersial...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/kopi" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -25,13 +29,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Tapak Dara</h2>
-            <p>
+            <p className="text-xl">
               Tanaman tapak dara (Catharanthus roseus) adalah tanaman hias yang
               juga memiliki nilai obat...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/TapakDara" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -40,13 +44,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Langsat</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Santos biasanya merujuk pada tanaman dengan nama ilmiah
               Cordyline fruticosa...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/Langsat" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -55,13 +59,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kemuning</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kemuning (Murraya paniculata), semak hijau abadi asli Asia
               Tenggara dan Asia Timur...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/kemuning" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -70,13 +74,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Asoka</h2>
-            <p>
+            <p className="text-xl">
               Bunga Asoka, dengan kelopak merah muda hingga merah tua dan benang
               sari kuningnya...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/asoka" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -85,13 +89,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Mangga</h2>
-            <p>
+            <p className="text-xl">
               Tanaman mangga adalah pohon tropis yang besar dengan daun hijau
               yang rimbun...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/mangga" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -103,13 +107,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Air Mata Pengantin</h2>
-            <p>
+            <p className="text-xl">
               Tanaman air mata pengantin (Saintpaulia), yang juga dikenal
               sebagai African Violet...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/airmatapengantin" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -118,13 +122,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Calliandra</h2>
-            <p>
+            <p className="text-xl">
               Kaliandra (Calliandra) adalah genus tanaman dalam famili Fabaceae
               yang terdiri dari lebih dari 200 spesies...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/calliandra" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -133,13 +137,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Santos</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Santos biasanya merujuk pada tanaman dengan nama ilmiah
               Cordyline fruticosa...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/santos" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -148,13 +152,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Mahkota Duri</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Mahkota Duri (Euphorbia milii) adalah tanaman hias yang
               populer di berbagai belahan dunia...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/mahkotaduri" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -163,13 +167,13 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Kayu Manis</h2>
-            <p>
+            <p className="text-xl">
               Tanaman kayu manis (Cinnamomum verum atau Cinnamomum cassia)
               adalah pohon kecil yang berasal dari...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/kayumanis" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -178,16 +182,17 @@ const Plant = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">Pasak Bumi</h2>
-            <p>
+            <p className="text-xl">
               Tanaman Pasak Bumi (Eurycoma longifolia) adalah tumbuhan asli
               hutan tropis di Asia Tenggara, terutama...
             </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Detail</button>
-            </div>
+            <Link to="/pasakbumi" className="btn btn-primary">
+              Detail
+            </Link>
           </div>
         </div>
       </div>
+      <CopyRight2 />
     </div>
   );
 };

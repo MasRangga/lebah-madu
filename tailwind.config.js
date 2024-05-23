@@ -1,4 +1,3 @@
-
 // /** @type {import('tailwindcss').Config} */
 // export default {
 //   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -11,34 +10,36 @@
 // };
 
 //  @type {import('tailwindcss').Config}
-module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [require("daisyui")],
-=======
 /** @type {import('tailwindcss').Config} */
+const flowbite = require("flowbite-react/tailwind");
+
 module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
+    flowbite.content(),
   ],
   theme: {
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
       },
+      colors: {
+        primary: "#86B817",
+        "primary-dark": "#6D8F0B",
+        secondary: "#E9FBC0",
+      },
     },
   },
-  plugins: [
-    require("daisyui")
-  ],
+  plugins: [require("tailwindcss"), require("daisyui"), flowbite.plugin()],
 
-  plugins: [
-    require('flowbite/plugin')
-  ],
+  daisyui: {
+    themes: ["light"],
+  },
+  flowbite: {
+    themes: ["light"],
+  },
 
   // daisyUI config (optional - here are the default values)
   daisyui: {
