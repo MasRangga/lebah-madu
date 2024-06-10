@@ -23,10 +23,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Card" element={<Plant />} />
+        <Route path="/card" element={<Plant />} />
         <Route path="/santos" element={<Santos />} />
         <Route path="/kopi" element={<Kopi />} />
-        <Route path="/TapakDara" element={<TapakDara />} />
+        <Route path="/tapakdara" element={<TapakDara />} />
         <Route path="/Langsat" element={<Langsat />} />
         <Route path="/asoka" element={<Asoka />} />
         <Route path="/calliandra" element={<Calliandra />} />
